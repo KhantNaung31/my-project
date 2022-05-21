@@ -1,0 +1,49 @@
+/*.img{
+    float:left;
+
+}*/
+
+body{
+    background-color: aquamarine;
+    margin:opx;
+}
+
+row{
+    overflow:hidden;
+    clear: both;
+    margin-top:5px;
+    margin-bottom:5px;
+
+}
+.col1{
+    float:left;
+    width: 30%;
+    margin:10px;
+}
+
+.col2{
+    float:none;
+    width: 70%;
+}
+
+.col3{
+    cleaer:both;
+}
+
+.col{
+    width:24%;
+    border: 2px solid red;
+    height: 200px;
+    float: left;
+}
+
+.col4{
+    width:30%;
+    float: left;
+}
+.col5{
+    width:30%;
+    border:2px solid black ;
+    height:200px ;
+    float: left;
+}

@@ -1,0 +1,89 @@
+.container {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    position: relative;
+
+}
+.
+.box4 {
+    width: 100px;
+    height: 100px;
+    border:1px solid blue ;
+    
+    position: absolute;
+    left:80px;
+    bottom: 80px;
+    z-index: 1;
+    border-radius: 50%;
+
+
+}
+.box5 {
+    width: 100px;
+    height: 100px;
+    border:1px solid black;
+    
+    position: absolute;
+    
+    left:120px;
+    bottom:80px;
+    z-index:2;
+    border-radius:50%;
+    
+
+
+}
+.box6 {
+    width: 100px;
+    height: 100px;
+    border:1px solid red;
+    
+    position: absolute;
+    left:150px;
+    bottom: 80px;
+    z-index: 3;
+    border-radius: 50%;
+
+
+}
+.box7 {
+    width: 100px;
+    height: 100px;
+    border:1px solid yellow;
+    
+    position: absolute;
+    left:170px;
+    bottom: 80px;
+    z-index:4;
+    border-radius: 50%;
+
+
+}
+.box8 {
+    width: 100px;
+    height: 100px;
+    border:1px solid green ;
+    
+    position: absolute;
+    left:200px;
+    bottom: 80px;
+    z-index: 8;
+    border-radius: 50%;
+
+}
+span {
+    position: relative;
+}
+.title-line::before {
+    content:"";
+    width: 200px;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    top: 20px;
+    text-align: center;
+
+}
+  

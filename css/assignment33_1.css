@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container  {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(240, 255, 249);
+    border-color: antiquewhite;
+
+}
+.row {
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+}
+
+.col {
+    border-color: brown;
+}
+

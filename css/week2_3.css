@@ -1,0 +1,27 @@
+div{
+
+    background-color: yellow;
+}
+p,h2{
+    color:green
+}
+div>div>div>h2{
+    color:blue;
+}
+p+p{
+    background-color: darkcyan;
+}
+h2+p{
+    background-color: blue;
+}
+div+div{
+    background-color: red;
+}
+
+label{
+    color:black
+}
+button{
+    background-color: blue;
+}
+
